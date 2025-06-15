@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Igloria - Activity 8</title>
+    <link rel="stylesheet" href="ActivitiesStyles.css">
+    <link rel="icon" type="image/png" href="/images/iscp.png">
+</head>
+<body>
+
+    <!-- Top Navigation -->
+    <nav class="navbar">
+        <div>
+            <img src="images/iscp.png" alt="ISCP logo" width="50px">
+        </div>
+        <div class="logo">International State College of the Philippines</div>
+        <div class="navbar-links">
+            <a href="index.html">Go to Home</a>
+        </div>
+    </nav>
+
+    <!-- Main Application Form -->
+    <div class="activity8-container">
+        <h2 class="main-title">Online Application</h2>
+        <div class="activity8-reminder">
+            <strong>Reminder:</strong>
+            <p>Please provide your correct and complete information. Fields marked with asterisk (*) are required.</p>
+        </div>
+        <form action="createaccc.html">
+            <div class="section">
+                <h3 class="sub-title">Application Term & Course/Strand</h3>
+                <label for="campus">Campus:*</label>
+                <select id="campus" required>
+                    <optgroup label="National Capital Region (NCR)">
+                        <option value="NU Manila">ISCP Manila</option>
+                        <option value="NU Manila">ISCP Fairview</option>
+                        <option value="NU MOA">ISCP MOA</option>
+                        <option value="NU East Ortigas">ISCP East Ortigas</option>
+                        <option value="NU Las Pinas">ISCP Las Pinas</option>
+                    </optgroup>
+                    <optgroup label="Region III(Central Luzon)">
+                        <option value="NU Baliwag">ISCP Baliwag</option>
+                        <option value="NU Clark">ISCP Clark</option>
+                    </optgroup>
+                    <optgroup label="Region IV-A (CALABARZON)">
+                        <option value="NU Laguna">ISCP Laguna</option>
+                        <option value="NU Dasmarinas">ISCP Dasmarinas</option>
+                        <option value="NU Lipa">ISCP Lipa</option>
+                    </optgroup>
+                    <optgroup label="Region VI (Western Visayas)">
+                        <option value="NU Bacolod">ISCP Laguna</option>
+                    </optgroup>
+                    <optgroup label="Region VII (Central Visayas)">
+                        <option value="NU Cebu">ISCP Cebu</option>
+                    </optgroup>
+                </select>
+                <label for="academicYear">Academic Year:*</label>
+                <select id="academicYear" required>
+                    <option>2025 – 2026</option>
+                    <option>2026 – 2027</option>
+                    <option>2085 – 2029</option>
+                </select>
+                <label for="term">Academic Term:*</label>
+                <select id="term" required>
+                    <option>1st</option>
+                    <option>2nd</option>
+                    <option>3rd</option>
+                </select>
+                <label for="applyingFor">Applying For:*</label>
+                <select id="applyingFor" required>
+                    <option>Select...</option>
+                    <optgroup label="Basic Education">
+                        <option value="Grade 11">Grade 11</option>
+                        <option value="Grade 12">Grade 12</option>
+                    </optgroup>
+                    <optgroup label="Higher Education">
+                        <option value="Freshman">Freshman</option>
+                        <option value="Transferee">Transferee</option>
+                        <option value="Second Degree Holder">Second Degree Holder</option>
+                        <option value="Cross Enrollee">Cross Enrollee</option>
+                        <option value="Graduate Studies">Graduate Studies</option>
+                    </optgroup>
+                </select>
+                <label for="program">Academic Program:*</label>
+                <select id="program" required>
+                    <optgroup label="Senior High Strands">
+                        <option value="ABM">ABM</option>
+                        <option value="GAS">GAS</option>
+                        <option value="STEM">STEM</option>
+                        <option value="TechVoc">TechVoc</option>
+                    </optgroup>
+                    <optgroup label="School of Education, Arts, and Sciences (SEAS)">
+                        <option value="BACHELOR OF ARTS IN COMMUNICATION (BAComm)">BACHELOR OF ARTS IN COMMUNICATION (BAComm)</option>
+                        <option value="BACHELOR OF ARTS IN COMMUNICATION (BAComm)">BACHELOR OF ARTS IN COMMUNICATION (BAComm)</option>
+                        <option value="NUManila">BACHELOR OF ARTS IN POLITICAL SCIENCE (BAPolsci)</option>
+                        <option value="NUManila">BACHELOR OF SCIENCE IN MEDICAL TECHNOLOGY (BSMT)</option>
+                        <option value="NUManila">BACHELOR OF SCIENCE IN PSYCHOLOGY (BSPsy)</option>
+                    </optgroup>
+                    <optgroup label="School of Accountancy, Business, and Management (SABM)">
+                        <option value="BACHELOR OF SCIENCE IN ACCOUNTANCY (BSAccountancy)">BACHELOR OF SCIENCE IN ACCOUNTANCY (BSAccountancy)</option>
+                        <option value="BACHELOR OF SCIENCE IN BUSINESS ADMINISTRATION MAJOR IN MARKETING MANAGEMENT (BSBA-MktgMgmt)">BACHELOR OF SCIENCE IN BUSINESS ADMINISTRATION MAJOR IN MARKETING MANAGEMENT (BSBA-MktgMgmt)</option>
+                        <option value="BACHELOR OF SCIENCE IN MANAGEMENT ACCOUNTING (BSMA)">BACHELOR OF SCIENCE IN MANAGEMENT ACCOUNTING (BSMA)</option>
+                        <option value="BACHELOR OF SCIENCE IN TOURISM MANAGEMENT (BSTM)">BACHELOR OF SCIENCE IN TOURISM MANAGEMENT (BSTM)</option>
+                    </optgroup>
+                    <optgroup label="School of Engineering, Architecture and Technology (SEAT)">
+                        <option value="BACHELOR OF SCIENCE IN ARCHITECTURE (BSArch)">BACHELOR OF SCIENCE IN ARCHITECTURE (BSArch)</option>
+                        <option value="BACHELOR OF SCIENCE IN CIVIL ENGINEERING (BSCE)">BACHELOR OF SCIENCE IN CIVIL ENGINEERING (BSCE)</option>
+                        <option value="BACHELOR OF SCIENCE IN COMPUTER ENGINEERING (BSCpE)">BACHELOR OF SCIENCE IN COMPUTER ENGINEERING (BSCpE)</option>
+                        <option value="BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY WITH SPECIALIZATION IN MOBILE AND WEB APPLICATION (BSIT)">BACHELOR OF SCIENCE IN INFORMATION TECHNOLOGY WITH SPECIALIZATION IN MOBILE AND WEB APPLICATION (BSIT)</option>
+                    </optgroup>
+                    <optgroup label="Academic Office (ACAD)">
+                        <option value="DOCTOR OF DENTAL MEDICINE (DMD)">DOCTOR OF DENTAL MEDICINE (DMD)</option>
+                    </optgroup>
+                </select>
+            </div>
+            <div class="section">
+                <h3 class="sub-title">Basic Information</h3>
+                <p class="note">Note: Please write your names based on your PSA/NSO-copy of birth certificate. For married females who wanted to use their married name, write your names based on your marriage certificate.</p>
+                <label for="firstName">First Name:*</label>
+                <input type="text" id="firstName"  placeholder="First Name"  required />
+                <label for="middleName">Middle Name:</label>
+                <input type="text" id="middleName" placeholder="Leave it blank if not applicable" />
+                <label for="lastName">Last Name:*</label>
+                <input type="text" id="lastName"  placeholder="Last Name"  required />
+                <label for="dob">Date of Birth:*</label>
+                <input type="date" id="dob" required />
+                <label for="email">Email Address:*</label>
+                <input type="email" id="email" required value="juandelacruz@email.com"/>
+                <label for="mobile">Mobile No.:*</label>
+                <input type="tel" id="mobile" placeholder="(09) 12345-6789" required />
+                <label for="nationality">Nationality:*</label>
+                <select name="Nationality" id="nationality">
+                    <option value="Filipino">Filipino</option>
+                    <option value="Afghan">Afghan</option>
+                    <option value="Aland Island">Aland Island</option>
+                    <option value="Albanian">Albanian</option>
+                    <option value="Algerian">Algerian</option>
+                </select>
+            </div>
+            <div class="section checkbox-container activity8-agreement">
+                <input type="checkbox" id="agreement" required />
+                <label for="agreement">
+                    By accomplishing this form, I hereby authorize International State College of the Philippines to retain, process, disseminate, and use for research purposes all the personal data that I provided. I understand and give consent to National University to communicate with me via post, telephone, mobile text, email or other means. If I do not wish to be contacted further, I will inform the University.
+                </label>
+                <div class="button-group">
+                    <button type="submit" class="create">Create Account</button>
+                    <button type="reset" class="cancel">Cancel</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</body>
+</html>
